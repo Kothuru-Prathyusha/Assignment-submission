@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netmedia</title>
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLpJMbz3EaQIfL6UP5YnlR5iVerb15RrYEQ&usqp=CAU">
+    </head>
+    <body>
+
+        <!-- header  -->
+
+        <div class="header" id="header"> 
+            <div class="container header_container">
+                <div class="logo">
+                    NetMedia.com
+                </div>
+                <div class="nav">
+                    <div class="nav-item">Home</div>
+                    <div class="nav-item">About</div>
+                    <div class="nav-item">Services</div>
+                    <div class="nav-item">Portfolio</div>
+                    <div class="nav-item">Contact</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- header end  -->
+
+        <!-- banner   -->
+
+        <div class="banner">
+            <div class="overlay">       
+                <div class="banner_text">
+                    <div class="padd">
+                        <h1 class="banner_title">Get the Help and Supports!</h1>
+                        <p class="banner_desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut adipisci, expedita consequatur sapiente aliquam doloribus numquam, sunt quaerat ducimus reprehenderit repellendus cum eaque, iure officiis quia pariatur delectus quae natus!
+                            
+                        </p>
+                        <p>
+                            <button class="banner_btn">Start The Course</button>
+                        </p>
+
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <!-- banner end  -->
+
+        <!-- services  -->
+
+        <div class="services">
+           <h1>What We Learn</h1>
+           <div class="container services_container">
+
+                <div class="service">
+                    <div class="service_img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGAcuU8KGnY7g_9eL7vZD1SrwmjmDt1D6NA&usqp=CAU"/>
+                    </div>
+
+                    <div class="service_details">
+                        <div class="service_padd">
+                            <h1 class="service_title">LAN Technologies</h1>
+                            <p class="service_desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod officia similique accusamus illo praesentium numquam debitis sapiente reiciendis necessitatibus aspernatur velit! Non sunt soluta necessitatibus laudantium
+                                Non sunt soluta necessitatibus laudantium
+                            </p>
+                            <p>
+                                <button class="service_btn">
+                                    View course
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="service">
+                    <div class="service_img">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEREBUQEw8QERIWFQ8QEhIVGBUVFhMQFRIWFhcSFRgYHiggGRolGxUTITEhJSk3Li4uGB8zODUtOCgtLisBCgoKDg0NFQ8PFy0dHR0tLSstLS0tLS0tLSsrLS0tLS0tKzgyLS0rLSs3KystLS0rLS0rKy0rKy0tKzcrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAMFBgcIAgH/xABMEAACAgEBBAUIBQUNCAMAAAAAAQIDEQQFEiExBgcTQVEUIjJhcYGRsURScrLBYoKhwtEjMzVCQ1NUdIOSorPSFSVFc5PD8PEWF2P/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABgRAQEBAQEAAAAAAAAAAAAAAAARIUEB/9oADAMBAAIRAxEAPwDeIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfJSSWW0l4vgB9BaNZ0o0NXp6yhPwUlJ/COWWPV9ZWhh6HbXP8mO6v8bQGZg1lq+tOb4VaSK8HObl/hil8yy6vrA2hZyshUvCuEfnPeYG5yHq9q6er98vqr9UpxT+DZovV7Z1Vv75qL5+pzlu/3c4IafqA3ZLppoE8eUx90ZtfFRPUemOgf0qHvUl80aRyfGwN5rpboP6ZT73j5nuPSjQv6bpvfZFfNmh2ynJgdAR6Q6N8tZpf+rX+0rR2xpny1ND9lkP2nOkmU3FNc1n/AM9QHSkdfS+V1T9ko/tKkbovlKL9jRzE4R9TfuPPZRXg36sL9IHUWT6cu4wsqWPY1+DKsdRallW2L2Ta/EDp0HNENo6nu1Woz4K2z8JEiva+sXLW6tPwV13+oDo8HO0OkeuX0/Vex22N/pZJr6WbQX02/wB8s/MDoAGiIdMto/0yz4Vv5xJNfTfaK+lyf5lL/UA3cDTUOnW0P6Qn/Z1fhEkV9Pdd9et+2EfwwBt0Gq6+n+t//B/mP8JEmvp/qu+Gnf5s/wDWBssGva+neofOqn4TX6xJ/wDnU4renVVFLm3JpfpAzkGE7C6fx1Wqr00aOE3NO3ewluwlLgmsy9HHv7zNgAAAGveu6Kez6ovew9VUmlxbzVbhY7+ODYRrvry/g2D8NTS/Z+52gaYjoI5WIWpY7o5W9jmmufHH/ogz4PhJ/pR6jq7F/KT8fSfMpNlHvfl9aXxZ9Vsvry+LKeT7kCqtTZ9eXxZ7jq7eSsl8SPkvPRHTV26lxsrVsFTqrNxuSTlXROUfRafNIghq/Ub25vT3lzXDh638UJavUJZcpYy1nCxlZ4Z7+T+BSv1dUp9qtHGNTafY713CGOPGNieffgmbcs06cYU6VVPs9NbPMrms26au1KKlY8fvjz7OYFJ6vULGd7jlrMeeOfzXxPMdfc1nmlxb3eS8SdTqNJ5I73TbC1WRpW5ZNJ2dlKWG3nEfNT9pE6Pqi63sbXfHKskuzsUYtQqnN5i65cfNfHPqwBRe0bPyfgHtCfel8Bbqqe2jJS1Lq4JWOxdpu49LjWljL5Y8Sdt1aepJV3XWyshTbKM914jZXCxScsJ5fm/DuFED/aD+qh5e/qon6WiizTu562cOzlCLrdNUkp2V2PdWbcNtUvGcZwuT5Utg6aGou7LyhU2TlGMM0wkpSnLdwvP83nySYEXy78k+rXL6pctu7Cjo4JT1NU5zjVJVqD31GaUk097h6LXHhz8SlszZPb0ucLtIlHdlJTjdGXp7uJNVv6y9F8fcBDWuX1We1r4eDPmz6YW2uEZ6fPOKmrowaT5x4Za7+J72ts6OmkqrZ07+W5OMpPMVLHHKW7lp8fU/ABHaFfrKsdo1eL+B6t2JKFfbShQ6UnmcdRUs4w97MpPmpx4JeHiRtnbJnfH9yhC1rKbV1Saa854i3n0U14cfUwJsNpVfWfwK0NpU/wA4i1y2W1aqt17+F+5qcHJz58GuGMHrW7DuqhvyovhlpxcknHdk3jMl34/SBeIbQp/nYkiGtq/nYfExfUbLtVatWn1XZ+c3bKuSrwscVJLHfzz4EWrTynndhKWMZwm8Z5ZAzuvUVv8AlIfEkwurSy7IpL1mvHorF/JWf3JY+R8pXFfar+8Bn1u1JYfZRWFnNk+EUvFLvLPfqZWPOXY/rz9FfYgVJ3OfB845co+KkpJLHsKbRRk3Vun/ALR0+W5PN3F/8mw3kaR6ul/vHT/2v+RYbuIAAAGvOvP+DI/1in7lhsM1515/wWv6xT92YGhMgQTbwuL7ke5UyXOMu98ny8SjyA4tdzXuPjAqVVSk8Ri5PwSyZD0Fio6x9rGW55PrJTS4SdXYTUt33ZMaLv0V1tVOocrZTjCVOppcoRcmnZW4JqK9pPRdlf0caxubRrX9pwXxZL2jXsHtFv6rXVy7LSclN/ua01aqbxW+PZ7mfXkxWWipdrhHVLsM47RxsjNQ8XDcfEndINNS5Rsp1kbW4U1zi0693sqK6k05JZzuZJBfI7P2I9LiO09TGryhS35QllX9i1ucalw3G3y9572PsXZXbxnVtl2TUdRiMox5SosjKXdyi5P3Flhs6ryJw8u0ys7Tyns3NZlLsuz7NcPYyl0Y2Y5XdpK2irdjfBKyda3nbRZWnwlyTmmQq5Pops9xxHpBpcYx5yqX/cRM2h0NqsnFx2xoVinSVpS3MtQ08IxnwnykkpL1NczEbNhWdr2C3JvO4rI4cH+Wpcsd5cOlPR+yuVdkq4Si6tNUtxb+JVaauEk1HLXGLx7ClX+rq9s8nsrjrtDY5Xaa1SW8kuzq1EN14zz7VNfZZ72N1eaunV0XuzRzhVdVZLddmXGMk3hOOMmOabove9DZJadbrt0+o70+xrp1EW8eKc1wXiUOhezHLaGmnCptV3UzsazwjvYz8WiFZd0t6Ea3W21amiNLh5Lpa/Om4S3oxbfDH5SLVper/aNdGqrlRW5Wx0yhu2w49nfGclxaxwXf4EfrIqujfVcldGrybR1qcZSjF2KvLWV34aIOxbNZLSaqULNW21p+yaslnheu03Xnh5uPcXgq1dBNpxsrb0b3VOuUmraX5qmm+Us8kett9Edoy1OomtFdOE7tROLTg8wlbKSx52eTRatl7Z1srq4rW65rfr3l21jW5vreym/DJM2x0l2hVqborW6qEe1v3E5ZSrVklHCl3YQ0V9V0f2gtHRDyTWOSt1srIqMpebJUbmUua8149jKGwdkayvUNy0msrj2Ouy3VYk5+R3KHdz3nHHrwS9T0s2lDSaea1VynKerVknCLe7B1bie9HliUviNidNdpTtcZatyiqdbZxqq9OvS22Q4qH1oxfuAx3UbP1PpS0+q38729KmzO948VzLj0kssbojNz3VptJJxcXhWyq898uD4vJMh1kbUisvUVS9Tqivlguu0+sXX1yrjGWme9Rpbpb0Jvz7aozlykuGWNFg6MXPyfW17+IR08XGLTSW9dHL5Z7kUdLs6+2qcqaJXxr8+1xTaqjutqUt5LC82XH1GQVdK9RrtLrIXKiKhVXJOCmnmVqXHMnwx6iN0Q6WS2ZC7drrudyjFNtpQcFLDcd3zl5/LK5cwq2UbH1XaQXkk5bq3068XJRShBzk6nL1PL72W+ju9tfzNh7O60WpSjLTUWb8JQ3qq46aUW8Li3bZvri+HDilzNd6SGEl4dmvgyov1E277c+vK9kkov4L/ETYwyRdFVi2xvvk1H1p+c/nBcfqlyS7km2+CS4tvw9bKMh6vV/vLT+23/ACLDdhrroF0NuqthrL263HeddP8AG86Djmzw4SfDn445GxSAAABD2rsujVV9lfTC6vKluTWVvLk8eJMAGLT6u9kv6BUvsucfuyRHt6sNlS+jzXd5t16/XMxAGCz6qNmvl5VH2XTf3slG3ql0TWFqNZH86t/Os2AANZX9TenkseW6r3xpfygiH/8ASsIvMNoTX2qk/lNG2QBpyfUtcm3DaUE3nnTJfKwi6jqZ1j4+W6eb/KVkf2m7QBoWzqb2iuVujl+fYvnWRbOqPai/iaaX2bf9UUdCADnC3qu2svoal7LaPxmiI+rva0P+HWr7MqX92Z00AOYJ9Etqw+g61fZjOX3Mkd7M2nX9G2pX7KtVH9KidTgDlO169R3Z+XbixiNiucVjliM+CKdfSLVUrdjqrKlx83KS+DR1gfGs8+IHI+l21OuTnXbXCbzmSjU2/jF+LK2v2xdqJKd0oXSilGMpQhlJPKXmpHVVmgpl6VNUvbGL/AiXdG9DP0tDpJfapqfziBzTd0junS6HDTut4Tj2aXLGGmmmnwXwKWyttT02ezp0rzz34Tm+Ti16fLDa950dZ0F2VLnszRe6mtfJFCzq72S/+H0r7O9H7rQhHOVmuhK7t5aerect9xi5whn1Ry8Ik7W21DUQjGWkrrcOU4Tak0koqL3ovkkkvA3vd1VbHl9ElH7N2oX65Gn1P7JfKu+Psusf3mwNG0bVhXp7KIabDsioStdmXjfUuMdxJ8V495E0+ohGLjKvfy8p5Sx6uMXwN529TGznyt1kPZOt/egyHZ1IaT+LrdYvb2L+VaA09J0wlF9nNNLj50Zb77m8ei01yRG0y4++v5m4p9R1X8XaF351cH8mj5oupNRsTnr3OrMXKMatybSzwUnNpfADEuj+xL9XONdVbnOPCUuUYJ4W9OXcuHtfdk3H0V6G0aNKbxbf32NcI+qtd3t5v9BfNmbNp01aqprjCC7l3v60nzb9bJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/9k="/>
+                    </div>
+
+                    <div class="service_details">
+                        <div class="service_padd">
+                            <h1 class="service_title">Switching</h1>
+                            <p class="service_desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod officia similique accusamus illo praesentium numquam debitis sapiente reiciendis necessitatibus aspernatur velit! Non sunt soluta necessitatibus laudantium
+                                Non sunt soluta necessitatibus laudantium
+                            </p>
+                            <p>
+                                <button class="service_btn">
+                                    View Cousre
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="service_img">
+                        <img src="https://api.time.com/wp-content/uploads/2015/10/archer-c7-01.jpg?w=824&quality=70"/>
+                    </div>
+
+                    <div class="service_details">
+                        <div class="service_padd">
+                            <h1 class="service_title">Routing</h1>
+                            <p class="service_desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod officia similique accusamus illo praesentium numquam debitis sapiente reiciendis necessitatibus aspernatur velit! Non sunt soluta necessitatibus laudantium
+                                Non sunt soluta necessitatibus laudantium
+                            </p>
+                            <p>
+                                <button class="service_btn">
+                                    View Course
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="service_img">
+                        <img src="https://2.imimg.com/data2/DG/LR/MY-4015174/wan-500x500.jpg"/>
+                    </div>
+
+                    <div class="service_details">
+                        <div class="service_padd">
+                            <h1 class="service_title">WAN Technologies</h1>
+                            <p class="service_desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod officia similique accusamus illo praesentium numquam debitis sapiente reiciendis necessitatibus aspernatur velit! Non sunt soluta necessitatibus laudantium
+                                Non sunt soluta necessitatibus laudantium
+                            </p>
+                            <p>
+                                <button class="service_btn">
+                                    View Course
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+           </div>
+        </div>
+        <!-- who we are -->
+       <div class="about">
+        <h1>Who Are We ?</h1>
+        <div class="container about_container">
+            <span class="start_text">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolore ab reprehenderit ipsa itaque similique perferendis vitae reiciendis voluptate eligendi repellendus commodi deserunt perspiciatis veniam. Tempora reiciendis exercitationem placeat ad!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus suscipit tempora dolorum. Dicta fugit eligendi quibusdam facilis laudantium repellat vel nulla, minima voluptatem, ab illo facere corporis cumque perferendis veritatis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores itaque voluptatem explicabo consequatur totam dicta ipsa ducimus! Sapiente quisquam possimus tenetur quia alias autem numquam sunt blanditiis assumenda necessitatibus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas ullam doloremque voluptate! Suscipit, explicabo veniam quis sit esse officia quos optio autem? Nostrum accusamus cumque deserunt maiores facere impedit?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos autem esse repudiandae atque quod error minus quia architecto asperiores corrupti consequatur, iusto laborum nihil ullam deserunt dolorem nam magnam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo reiciendis quam vero facilis sunt magnam reprehenderit, dicta, nemo nulla cupiditate officiis provident vitae. Exercitationem delectus non maxime rerum repellat?                     
+         </div>
+    </div>
+
+    <!-- highlight -->
+    <div class="highlight">
+        <div class="container highlight_container">
+            <div class="high_ele">
+                <div class="high_ele_child">                   
+                       <h1 class="high_title">50+</h1>
+                       <p class="high_dcs">Courses Offered</p>
+                </div>   
+            </div>
+            <div class="high_ele">
+                 <div class="high_ele_child">
+                      <h1 class="high_title">30+</h1>
+                      <p class="high_dcs">Clients</p>
+                 </div> 
+            </div>
+            <div class="high_ele">
+                 <div class="high_ele_child">
+                       <h1 class="high_title">500+</h1>
+                       <p class="high_dcs">Students Hired</p>
+                 </div>      
+            </div>
+            <div class="high_ele">
+                 <div class="high_ele_child">
+                      <h1 class="high_title">135+ million</h1>
+                      <p class="high_dcs">Publications</p>
+                 </div>     
+            </div>
+        </div>
+
+    </div>
+
+    <!-- get a quote -->
+    <div class="quote">
+        <div class="container quote_container">
+             <h1 class="quote_title">Start Learning With Us Right Now</h1>
+             <p>
+                 <button class="quote_btn">Get A Quote</button>
+             </p>
+         </div>    
+    </div>
+
+    <!-- css for portfolio -->
+
+    <div class="portfolio">
+         <div class="container portfolio_container">
+            <div class="project  project_1">
+                <div class="project_title">
+                     <h1>Ethernet</h1>
+                 </div>    
+            </div>
+            <div class="project  project_2">
+                <div class="project_title">
+                      <h1>Protocols</h1>
+                </div>  
+            </div>
+             <div class="project  project_3">
+                <div class="project_title">
+                    <h1>Subnetting</h1>
+                 </div>  
+            </div>
+            <div class="project  project_4">
+                 <div class="project_title">
+                      <h1>Security</h1>
+                 </div>  
+            </div>
+            <div class="project  project_5">
+                 <div class="project_title">
+                     <h1>Broadcasting</h1>
+                 </div>  
+            </div>
+            <div class="project  project_6">
+                 <div class="project_title">
+                      <h1>Communication</h1>
+                 </div>  
+            </div>
+            <div class="project  project_7">
+                 <div class="project_title">
+                      <h1>Firewall</h1>
+                 </div>  
+            </div>
+            <div class="project  project_8">
+                 <div class="project_title">
+                     <h1>Internet</h1>
+                 </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- css for footer -->
+    <div class="footer">
+        <div class="container footer_container">
+            <div class="footer_child footer_child_1">
+                <h1 class="footer_logo">NETMEDIA.com</h1>
+            </div>
+            <div class="footer_child">
+                <ul>
+                    <li class="first">Quick Links</li>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Content</li>
+
+
+                </ul>
+            </div>
+            <div class="footer_child">
+                <ul>
+                    <li class="first">Contact Us</li>
+                    <li>
+                        29th street,plot 65,
+                        washington,usa
+                    </li>
+                    <li>7365421282</li>
+                    <li>info@mathexo.com</li>
+                </ul>
+            </div>
+            <div class="footer_child footer_child_4">                   
+                <div class="container social_container">
+                    <div class="social_icon si1"></div>
+                    <div class="social_icon si2"></div>
+                    <div class="social_icon si3"></div>
+                    <div class="social_icon si4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--<script>
+
+         window.onscroll=function(){
+             console.log("scroll working");
+         } 
+     </script>    --> 
+
+    <script>
+         window.onscroll=function(){
+             if(window.pageYOffset>10){
+                 document.getElementById('header').style.backgroundColor="#0063b2";
+             }
+             else{
+                 document.getElementById('header').style.backgroundColor="transparent";
+
+             }
+         }
+
+    </script>
+    </body>
+</html>
+
+
+
+     
+
